@@ -1,0 +1,91 @@
+<!Doctype html>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Busqueda Libro</title>
+	<link rel="stylesheet" href="../master/css/initialize.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/biblioteca.css">
+	<link rel="stylesheet" type="text/css" href="CSS/footer.css">
+	<link rel="stylesheet" type="text/css" href="CSS/cabecera.css">
+	<link rel="stylesheet" type="text/css" href="CSS/formulario.css">
+	<link rel="stylesheet" type="text/css" href="CSS/navegacion.css">
+	<link href="iconos/css/all.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+	<header id="cabecera">
+		<img src="imagenes/library-svgrepo-com.svg">
+		<h1>Biblioteca</h1>
+		<i class="fas fa-user-circle fa-3x"></i>
+		<article style="clear: right;"></article>
+		<article style="clear: left;"></article>
+	</header>
+	<main>
+
+		<nav>
+			<li style="width: 150px;">&nbsp</li>
+			<li><a href="../index.html">Inicio</a></li>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">Libros</a>
+				<article class="dropdown-content">
+					<a href="listado.html">Listado</a>
+					<a href="alta.html">Alta</a>
+					<a href="modificar.html">Modificación</a>
+					<a href="baja.html">Baja</a>
+				</article>
+			</li>
+			<li><a href="busqueda.html">Buscar</a></li>
+		</nav>
+
+
+		<section class="formularioContainer">
+
+			<h2 id="tituloFormulario">Busqueda de libro</h2>
+
+			<article class="formulario">
+				<form>
+					<article style="margin-left: 100px;">
+						<article style=" margin-top: 20px;">
+							<input type="text" class="buscador">
+							<i class="fas fa-search" style="margin-left: 5px;"></i>
+						</article>
+						<article class="contenedorDeBusqueda">
+							<article class="contenedorBusquedaInterior">
+								<article style=" margin-top: 20px;">
+
+									<label class="resultadoDeBusqueda">El señor de los anillos </label>
+
+									<button class="modificarButton"
+										onclick="location.href ='modificar.html';return false">Modificar</button>
+									<button class="bajaButton"
+										onclick="location.href ='baja.html';return false">Baja</button>
+								</article>
+								<article style=" margin-top: 20px;">
+
+									<label class="resultadoDeBusqueda">C# for beginners</label>
+
+									<button class="modificarButton"
+										onclick="location.href ='modificar.html';return false">Modificar</button>
+									<button class="bajaButton"
+										onclick="location.href = 'baja.html';return false">Baja</button>
+								</article>
+							</article>
+						</article>
+					</article>
+				</form>
+			</article>
+
+		</section>
+
+
+	</main>
+	<footer>
+		<p><br>Author: David Molares<br></p>
+	</footer>
+</body>
+
+</html>

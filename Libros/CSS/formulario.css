@@ -1,0 +1,94 @@
+
+
+.formularioContainer{
+	background-color: #AA6239;
+	border: 5px solid #0E5441;
+	border-radius: 20px;		
+	width: 587px;
+	height: 601px;	
+	margin: 50px auto;
+			}
+ #tituloFormulario{
+ 	color: white;
+ 	font-weight: bold;
+ 	text-decoration: underline;
+ 	text-align: center;
+ }
+
+ .formulario{
+ 	background-color: white;
+ 	width: 100%;
+ 	height: 75%;
+ 	padding-top: 10px;
+ 
+ }
+ .guardarButtonContainer{	
+	margin: 10px 0 0 450px;
+	height: 50px;
+	width: 110px;
+	
+	
+ }
+ #guardarButton{
+  	width: 100%;
+ 	height: 100%;			
+ }
+
+.cajatexto{
+	width: 100px;
+	display: inline-block;
+}
+
+.buscador{
+	margin-left: 40px;
+	width: 300px;
+	border-radius: 10px;
+	display: inline-block;
+}
+.contenedorDeBusqueda{
+	border: 1px solid black;
+	margin-top: 20px;
+	height: 350px;
+	width: 400px;
+}
+.seleccionarTodo{		
+	height: 50px;
+	width: 200px;
+	margin-left: 100px;	
+}
+
+.contenedorBusquedaInterior{
+	
+	width: 100%;
+	height: 300px;
+	
+}
+.resultadoDeBusquedaContainer{
+	width: 400px;
+	height: 30px;
+	margin: 10px 0 0 0px;
+}
+
+.resultadoDeBusqueda{
+	text-align:left;
+	font-size: 16px;
+	width: 250px;
+	margin-left: 10px;
+	font-weight: bold;
+	display:inline-block;
+	
+}
+
+.modificarButton{
+	
+	height: 25px;
+	width: 80px;
+	
+}
+.bajaButton{
+	
+	height: 25px;
+	width: 50px;
+}
+
+
